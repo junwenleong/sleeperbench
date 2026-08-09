@@ -1,5 +1,7 @@
 # SleeperBench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21859790.svg)](https://doi.org/10.5281/zenodo.21859790)
+
 Benchmark for evaluating persistent memory attacks on stateful LLM agents.
 
 ## What This Measures
@@ -156,7 +158,8 @@ If you use SleeperBench, please cite the paper and optionally the software artif
   year    = {2026},
   version = {1.0.0},
   license = {MIT},
-  url     = {https://github.com/junwenleong/sleeperbench},
+  url     = {https://doi.org/10.5281/zenodo.21859790},
+  doi     = {10.5281/zenodo.21859790},
   note    = {Frozen research artifact, validated June 2026}
 }
 ```
