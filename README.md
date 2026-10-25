@@ -2,6 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21859790.svg)](https://doi.org/10.5281/zenodo.21859790)
 
+> **Archived (2026-10-25).** This repository is a frozen snapshot of the harness released with
+> v5 of arXiv:2605.08442 and is not maintained. The current code, data and corrections are in
+> [stateful-agent-security-eval](https://github.com/junwenleong/stateful-agent-security-eval).
+> Paper v6 withdrew the v5 frontier-model attack rates; use v6 for any frontier number.
+
 Benchmark for evaluating persistent memory attacks on stateful LLM agents.
 
 ## What This Measures
@@ -133,7 +138,7 @@ provides a stable reference baseline for research in LLM agent memory security.
 ### Verification Steps
 
 1. `make smoke` passes with zero API keys (validates harness using recorded traces)
-2. `make core MODEL=gpt-4o-mini` reproduces paper findings within reported CIs
+2. `make core MODEL=gpt-4o-mini` runs the core profile against one API model
 3. Results are deterministic at temperature=0 (modulo API-side variance)
 
 ## Citation
